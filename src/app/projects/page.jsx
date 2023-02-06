@@ -75,7 +75,13 @@ const Projects = () => {
         </Card>
       </section>
       <div className="grid justify-center mx-4 mt-4 bg-[#AEA79E]">
-        <Image src="/hire.png" alt="hire" width={400} height={200} priority />
+        <Image
+          src="/hire.png"
+          alt="hire"
+          width={800}
+          height={500}
+          loading="lazy"
+        />
       </div>
     </>
   );
