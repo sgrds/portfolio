@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -65,8 +66,8 @@ export default function Home() {
       </section>
       <section className="mx-4 grid grid-cols-1 md:grid-cols-3 mb-16">
         <div className="col-span-1 md:pr-4 md:border-primary md:border-r mb-6 md:mb-0">
-          <h1 className="text-6xl font-bold mb-6">
-            FULL STACK DEV -CUM- DESIGNER
+          <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-center md:text-left">
+            FULL STACK DEVELOPER -CUM- DESIGNER
           </h1>
           <div className="grid justify-center">
             <Image
@@ -93,7 +94,7 @@ export default function Home() {
             height={500}
             loading="lazy"
           />
-          <h1 className="text-5xl md:text-[4.2rem] font-bold">
+          <h1 className="text-5xl md:text-[4.2rem] font-bold text-center md:text-left">
             Delivering innovative that exceed expectations. Providing
             exceptional, cutting-edge solutions.
           </h1>
@@ -107,7 +108,7 @@ export default function Home() {
             </h1>
           </div>
 
-          <h1 className="text-7xl md:text-8xl lg:text-9xl font-black">
+          <h1 className="text-7xl md:text-8xl lg:text-9xl font-black  text-center md:text-left">
             & Designer
           </h1>
         </div>
@@ -133,9 +134,11 @@ export default function Home() {
               tools.
             </p>
             <p className="text-2xl mb-2">To know more:</p>
-            <button className="text-3xl border-2 border-primary border-dashed font-black decoration-dashed px-4 py-2 mb-8 md:mb-0">
-              Click Here
-            </button>
+            <Link href="/skills">
+              <button className="text-3xl border-2 border-primary border-dashed font-black decoration-dashed px-4 py-2 mb-8 md:mb-0">
+                Click Here
+              </button>
+            </Link>
           </div>
           <div className="md:ml-4 border-primary border-t md:border-none pt-8 md:pt-0  md:col-span-5">
             <h1 className="tracking-tight text-6xl font-black mb-6">
@@ -145,9 +148,11 @@ export default function Home() {
               Innovative project featuring cutting-edge technology and design.
             </p>
             <p className="text-2xl mb-2">To know more:</p>
-            <button className="text-3xl border-2 border-primary border-dashed font-black decoration-dashed px-4 py-2">
-              Click Here
-            </button>
+            <Link href="/projects">
+              <button className="text-3xl border-2 border-primary border-dashed font-black decoration-dashed px-4 py-2 mb-8 md:mb-0">
+                Click Here
+              </button>
+            </Link>
           </div>
         </div>
       </section>

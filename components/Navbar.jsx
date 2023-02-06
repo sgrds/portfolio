@@ -1,17 +1,20 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = ({ page }) => {
   return (
     <>
       <nav className="flex flex-row items-center px-4 py-2">
-        <Image
-          src="/sagarCodes.svg"
-          className="hidden md:block"
-          alt="sgr-ds-logo"
-          width={120}
-          height={30}
-          priority
-        />
+        <Link href="/">
+          <Image
+            src="/sagarCodes.svg"
+            className="hidden md:block"
+            alt="sgr-ds-logo"
+            width={120}
+            height={30}
+            priority
+          />
+        </Link>
         <div className="grow grid justify-center">
           {page ? (
             <div className="grow grid justify-center">
@@ -43,7 +46,9 @@ const Navbar = ({ page }) => {
         <div className="grow text-center hidden md:block">
           <h1>Kolkata, India</h1>
         </div>
-        <h1 className="grow text-right">About Me</h1>
+        <Link href="/about" className="grow text-right">
+          About Me
+        </Link>
       </div>
       <h2 className="font-bold italic text-center text-xs mb-2 md:mb-6">
         ( Empowering businesses with custom web solutions )

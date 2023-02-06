@@ -1,29 +1,34 @@
 import Image from "next/image";
+import Link from "next/link";
+import Scroll from "./Scroll";
 
 const Footer = () => {
   return (
     <>
-      <section className="mx-4 py-2 grid lg:gap-8 md:gap-4 lg:flex font-black text-7xl md:text-8xl border-y border-primary mt-16 justify-center">
-        <h1 className="font-bold">GetInTouch</h1>
-        <div className="text-secondary bg-primary grid justify-center px-2">
-          <h1>EMAIL</h1>
-        </div>
-      </section>
+      <Scroll />
       <footer className="mx-auto max-w-screen-xl bg-secondary text-primary py-8">
         <div className="mx-4 flex">
-          <Image
-            src="/sagarCodes.svg"
-            className="block"
-            alt="sgr-ds-logo"
-            width={120}
-            height={30}
-            loading="lazy"
-          />
+          <Link href="/">
+            <Image
+              src="/sagarCodes.svg"
+              className="block"
+              alt="sgr-ds-logo"
+              width={120}
+              height={30}
+              loading="lazy"
+            />
+          </Link>
           <div className="flex justify-end grow">
             <ul className="flex text-2xl font-medium gap-4">
-              <li>AboutMe</li>
-              <li>Email</li>
-              <li>Behance</li>
+              <li>
+                <Link href="/about">AboutMe</Link>
+              </li>
+              <li>
+                <Link href="mailto:sagardasdev@gmail.com">Email</Link>
+              </li>
+              <li>
+                <Link href="/">Behance</Link>
+              </li>
             </ul>
           </div>
         </div>

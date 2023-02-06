@@ -6,9 +6,11 @@ import Navbar from "@/components/Navbar";
 const AboutMe = () => {
   return (
     <>
+      <section className="block lg:hidden text-center text-bold border-y border-primary text-lg">
+        <h1>For better experience open this page on desktop</h1>
+      </section>
       <Navbar page={"About Me"} />
-
-      <section className="mt-8 lg:grid mx-4 grid-cols-3 divide-x divide-primary hidden ">
+      <section className="mt-8 lg:grid mx-4 grid-cols-3 lg:divide-x lg:divide-primary">
         <div className="grid divide-y divide-primary mr-0 md:mr-2">
           <div className="pb-4">
             <h1 className="text-5xl font-thin mb-2">Educational Background</h1>
@@ -55,7 +57,7 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="border-t border-primary lg:border-0 ">
           <h1 className="text-center text-3xl font-medium">
             SAGAR DAS <br />
             FULL-STACK DEVELOPER -CUM- DESIGNER
