@@ -42,13 +42,15 @@ const Navbar = ({ page }) => {
         </div>
       </nav>
       <div className="flex border-primary border-t-2 border-b-2 mx-4 py-0.5 font-bold md:text-sm">
-        <h1 className="grow italic">Sagar Das</h1>
+        <h1 className="grow italic">
+          <Link href="/projects">Projects</Link>
+        </h1>
         <div className="grow text-center hidden md:block">
           <h1>Kolkata, India</h1>
         </div>
-        <Link href="/about" className="grow text-right">
-          About Me
-        </Link>
+        <h1 className="grow italic text-right">
+          <Link href="/about">About Me</Link>
+        </h1>
       </div>
       <h2 className="font-bold italic text-center text-xs mb-2 md:mb-6">
         ( Empowering businesses with custom web solutions )
