@@ -12,27 +12,33 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Portfolio Website
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Welcome to my portfolio website! I am a designer with a passion for creating beautiful and user-friendly designs. On this website, you'll find a showcase of my work, highlighting my skills and experience.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## About Me
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+I am a seasoned designer with a keen eye for detail and a passion for creating aesthetically pleasing designs that deliver a great user experience. With years of experience in the field, I have honed my skills and gained expertise in creating designs for web and mobile.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## My Services
 
-## Learn More
+- Web Design
+- Graphic Design
+- UI/UX Design
+- Mobile Design
 
-To learn more about Next.js, take a look at the following resources:
+## My Work
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+On this website, you'll find a collection of my work, including projects for web and mobile. Each project showcases my ability to create designs that are both visually appealing and functional. From simple landing pages to complex web applications, I have the skills and experience to bring your vision to life.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Why Choose Me
 
-## Deploy on Vercel
+- I have a proven track record of delivering high-quality designs on time and within budget.
+- I am passionate about design and always strive to create the best possible user experience.
+- I am easy to work with and always open to feedback and collaboration.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Get in Touch
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you're interested in working with me or have any questions, feel free to reach out. I would be more than happy to chat about your project and see how I can help. You can contact me via email at sagardasdev@gmail.com or by filling out the form on the Contact page.
+
+Thank you for visiting my portfolio website. I look forward to hearing from you!
