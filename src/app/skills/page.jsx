@@ -34,14 +34,16 @@ const Skills = () => {
           />
         </div>
         <div>
-          <Image
-            src="/banner.png"
-            className="mb-4"
-            alt="poster"
-            width={620}
-            height={300}
-            loading="lazy"
-          />
+          <div className="grid justify-center">
+            <Image
+              src="/banner.png"
+              className="mb-4"
+              alt="poster"
+              width={620}
+              height={300}
+              loading="lazy"
+            />
+          </div>
           <div className="bg-[#AEA79E] pb-6 px-2">
             <h1 className="text-4xl font-medium my-6">TOOLS FOR DESIGNING</h1>
             <div className="text-xl font-medium text-primary grid grid-cols-2 md:grid-cols-3 gap-2 border-b border-primary pb-6">
