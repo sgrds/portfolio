@@ -23,7 +23,10 @@ const AboutMe = () => {
             </p>
           </div>
           <div className="py-4">
-            <h1 className="text-6xl font-thin mb-2">SKILLS</h1>
+            <h1 className="text-6xl font-thin mb-2 hover:underline">
+              <Link href="/skills">SKILLS</Link>
+            </h1>
+
             <p className="font-thin text-lg  first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-medium first-letter:text-primary first-letter:mr-3 first-letter:float-left">
               As a full stack developer, I have a diverse set of skills in both
               front-end and back-end development. I enjoy solving complex
@@ -35,6 +38,9 @@ const AboutMe = () => {
               success in this field is hard work, creativity, and a constant
               drive for learning and growth.
             </p>
+            <Link href="/skills" className="hover:underline">
+              To Learn More
+            </Link>
           </div>
           <div className="pt-4">
             <h1 className="text-5xl font-thin mb-2">WORK EXPERIENCE</h1>
