@@ -27,7 +27,13 @@ const Footer = () => {
                 <Link href="mailto:sagardasdev@gmail.com">Email</Link>
               </li>
               <li>
-                <Link href="/">Behance</Link>
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.behance.net/sagardas52"
+                >
+                  Behance
+                </Link>
               </li>
             </ul>
           </div>

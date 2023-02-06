@@ -111,6 +111,8 @@ const AboutMe = () => {
               As a Full Stack Developer with over two and a half months of
               industrial experience at{" "}
               <Link
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://skynox.tech/"
                 className="italic underline hover:cursor-pointer font-bold"
               >
