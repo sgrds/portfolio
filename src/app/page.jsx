@@ -158,18 +158,19 @@ export default function Home() {
       </section>
       <section className="mx-4 flex">
         <div className="lg:mr-4">
-          <div className="grid grid-cols-2 gap-4 md:flex mb-4">
+          <div className="grid grid-cols-12 gap-4 mb-4">
             <Image
               src="/illustrationside.png"
-              className="border border-primary"
-              alt="sgr-ds-logo"
+              className="border border-primary col-span-5"
+              alt="pic"
               width={280}
               height={237}
               loading="lazy"
             />
             <Image
               src="/need.svg"
-              alt="sgr-ds-logo"
+              className="col-span-7"
+              alt="need"
               width={373}
               height={237}
               loading="lazy"
@@ -178,7 +179,7 @@ export default function Home() {
           <Image
             src="/website.svg"
             className="h-auto w-auto"
-            alt="sgr-ds-logo"
+            alt="website"
             width={670}
             height={305}
             loading="lazy"
@@ -188,7 +189,7 @@ export default function Home() {
           <Image
             src="/illustrationsquare.png"
             className="border border-primary hidden lg:block px-1 pb-1"
-            alt="sgr-ds-logo"
+            alt="illustration"
             width={540}
             height={560}
             loading="lazy"
